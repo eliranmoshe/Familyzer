@@ -1,4 +1,4 @@
-package organizer.family.com.familyzer;
+package organizer.family.com.familyzer.Frags;
 
 
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import organizer.family.com.familyzer.R;
 
 
 public class CategoryFrag extends Fragment {
@@ -22,10 +23,6 @@ public class CategoryFrag extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment and locate the views
         View view=inflater.inflate(R.layout.fragment_category, container, false);
-
-
-
-
         return view;
     }
 
