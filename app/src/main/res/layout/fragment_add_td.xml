@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="organizer.family.com.familyzer.Frags.AddTDFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/TitleMissionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/AddFradTitleET"
+        android:inputType="textPersonName"
+        android:textColorLink="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/MissionTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/AddFragMissionET"
+        android:inputType="textMultiLine"
+        android:textColorLink="@android:color/background_light" />
+
+</LinearLayout>
